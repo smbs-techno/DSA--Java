@@ -1,10 +1,10 @@
 package Linked_List;
 
-class ListNode {
+class Node {
     int val;
-    ListNode next;
+    Node next;
 
-    ListNode(int val) {
+    Node(int val) {
         this.val = val;
         this.next = null;
     }
@@ -44,7 +44,7 @@ public class removenthnodefromendoflinkedlist {
     static void printList(Node head){
             Node temp=head;
             while(temp!=null){
-                System.out.print(temp.data + " -> ");
+                System.out.print(temp.val + " -> ");
                 temp=temp.next;
             }
             System.out.println("null");

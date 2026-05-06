@@ -1,18 +1,18 @@
 package Linked_List;
 
 import java.util.ArrayList;
-class ListNode {
+class Node {
     int val;
-    ListNode next;
+    Node next;
 
-    ListNode(int val) {
+    Node(int val) {
         this.val = val;
         this.next = null;
     }
 }
 public class checklinkedlistpalindrome {
 
-    public static boolean isPalindrome(ListNode head) {
+    public static boolean isPalindrome(Node head) {
         ArrayList<Integer> list=new ArrayList<>();
         while(head != null){
             list.add(head.val);

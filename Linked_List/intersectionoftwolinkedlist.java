@@ -1,9 +1,9 @@
 package Linked_List;
-class ListNode {
+class Node {
     int val;
-    ListNode next;
+    Node next;
 
-    ListNode(int val) {
+    Node(int val) {
         this.val = val;
         this.next = null;
     }
@@ -50,7 +50,7 @@ public class intersectionoftwolinkedlist {
         Node result = getIntersectionNode(head1, head2);
 
         if (result != null)
-            System.out.println(result.data);
+            System.out.println(result.val);
         else
             System.out.println("No intersection");
   }
