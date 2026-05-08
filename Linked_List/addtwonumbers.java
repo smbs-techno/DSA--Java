@@ -1,6 +1,5 @@
 package Linked_List;
 
-import java.lang.classfile.components.ClassPrinter.ListNode;
 
 class Node{
     int data;

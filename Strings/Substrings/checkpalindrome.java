@@ -2,10 +2,13 @@ package Strings.Substrings;
 
 public class checkpalindrome {
     static boolean solve(String s){
-        StringBuilder sb=new StringBuilder(s);
-        String s1=sb.reverse().toString();
-        if(s.equals(s1)) return true;
-        return false;
+        int left=0,right=s.length()-1;
+        while(left<right){
+            if(s.charAt(left)!=s.charAt(right)) return false;
+            left++;
+            right--;
+        }
+        return true;
     }
     public static void main(String[] args) {
         String s="abccba";
