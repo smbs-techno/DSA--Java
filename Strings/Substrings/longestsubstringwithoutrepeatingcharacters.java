@@ -17,7 +17,6 @@ public class longestsubstringwithoutrepeatingcharacters {
             max=Math.max(max,i-l+1);
         }
         return max;
-
     }
     public static void main(String[] args) {
         String s1="abcdefa";
