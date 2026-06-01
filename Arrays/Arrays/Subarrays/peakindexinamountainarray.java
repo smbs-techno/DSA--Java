@@ -1,5 +1,4 @@
 package Arrays.Arrays.Subarrays;
-
 public class peakindexinamountainarray {
      public static int peakIndexInMountainArray(int[] arr) {
         int n=arr.length;
