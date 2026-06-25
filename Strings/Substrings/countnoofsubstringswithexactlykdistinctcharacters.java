@@ -2,7 +2,7 @@ package Strings.Substrings;
 
 import java.util.HashMap;
 
-public class countnoofsubstrings {
+public class countnoofsubstringswithexactlykdistinctcharacters {
     public static int solve(String s, int k){
         HashMap<Character,Integer> map=new HashMap<>();
         int left=0;

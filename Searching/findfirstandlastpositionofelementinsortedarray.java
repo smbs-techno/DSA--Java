@@ -1,7 +1,7 @@
 package Searching;
 
 public class findfirstandlastpositionofelementinsortedarray{
-public static int[] searchRange(int[] nums, int target) {
+    public static int[] searchRange(int[] nums, int target) {
         int low=0;
         int high=nums.length-1;
         int mid;

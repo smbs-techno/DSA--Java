@@ -27,6 +27,6 @@ public class findthesmallestdivisorgivenathreshold {
     public static void main(String[] args) {
         int[] arr={1,2,5,9};
         int th=6;
-        System.out.println(smallestDivisor(arr, th));
+        System.out.print(smallestDivisor(arr, th));
     }
 }

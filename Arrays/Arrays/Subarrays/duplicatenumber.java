@@ -1,5 +1,5 @@
 package Arrays.Arrays.Subarrays;
-
+//this code will only work for array if size is n+1 and values must be in range [1,n]
 public class duplicatenumber {
      public static int findDuplicate(int[] nums) {
        int slow=nums[0];
@@ -16,7 +16,7 @@ public class duplicatenumber {
        return slow;
     }
     public static void main(String[] args) {
-        int[] arr={2,3,4,4,5};
+        int[] arr={1,3,4,2,2};
         System.out.println(findDuplicate(arr));
     }
 }

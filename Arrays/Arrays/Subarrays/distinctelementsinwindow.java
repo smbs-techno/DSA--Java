@@ -1,10 +1,7 @@
-package Arrays.Arrays.Subarrays;
-
-import java.util.HashMap;
-
+package Arrays.Arrays.Subarrays; 
+import java.util.*;
 public class distinctelementsinwindow {
     public static void main(String[] args) {
-        
             int[] arr={-2 ,-4, -2, 4, -2};
             int n=arr.length;
             int k=3;
@@ -26,6 +23,5 @@ public class distinctelementsinwindow {
 
         }
         
-        /* Enter yourcode here. Read input from STDIN. Print output to STDOUT. Your class should be named Main. */
     }
 

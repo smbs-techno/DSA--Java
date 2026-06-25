@@ -1,7 +1,7 @@
 package Strings.Substrings;
 
 public class stringcompression {
-         public static int compress(char[] chars) {
+    public static int compress(char[] chars) {
        int idx=0;
        int i=0;
        while(i<chars.length){
@@ -13,8 +13,9 @@ public class stringcompression {
         }
         chars[idx++]=curr;
         if(count>1){
-            for(char c : String.valueOf(count).toCharArray()){
-                chars[idx++]=c;
+            String s=String.valueOf(count);
+            for(int j=0;j<s.length();j++){
+                chars[idx++]=s.charAt(j);
             }
         }
        }

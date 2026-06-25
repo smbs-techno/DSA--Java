@@ -1,5 +1,4 @@
 package Sliding_Window;
-
 public class maximumpointsucanobtainfromcards {
     public static int maxScore(int[] cardPoints, int k) {
        int lsum=0;

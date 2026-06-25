@@ -1,7 +1,5 @@
 package Strings.Substrings;
-
 import java.util.HashSet;
-
 public class longestsubstringwithoutrepeatingcharacters {
     static int solve(String s){
         HashSet<Character> set=new HashSet<>();

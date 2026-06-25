@@ -1,4 +1,5 @@
-class palindromenumber{
+package Maths;
+public class palindromenumber{
 public boolean isPalindrome(int x) {
       int rev=0;
       int temp=x;
@@ -11,8 +12,6 @@ public boolean isPalindrome(int x) {
       }
       else{
         return false;
-      }
-
-        
+      }        
     }
 }
