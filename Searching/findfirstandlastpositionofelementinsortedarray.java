@@ -9,7 +9,7 @@ public class findfirstandlastpositionofelementinsortedarray{
         arr[0]=-1;
         arr[1]=-1;
         while(low<=high){
-            mid=(low+high)/2;
+            mid=low+(high-low)/2;
             if(nums[mid]==target){
                 arr[0]=mid;
                 high=mid-1;
