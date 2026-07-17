@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.*;
 public class addtoarrayformofintegers{
     public static List<Integer> addToArrayForm(int[] num, int k) {
