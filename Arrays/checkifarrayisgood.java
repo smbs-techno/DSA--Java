@@ -1,4 +1,4 @@
-package Arrays;
+
 import java.util.*;
 public class checkifarrayisgood{
      public static boolean isGood(int[] nums) {
