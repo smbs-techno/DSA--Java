@@ -1,4 +1,3 @@
-package Arrays;
 public class earliestfinishtimeforlandandwaterridesI{
     public static int earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
         int ans = Integer.MAX_VALUE;
