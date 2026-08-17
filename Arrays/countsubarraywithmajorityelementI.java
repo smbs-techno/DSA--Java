@@ -1,4 +1,3 @@
-package Arrays;
 
 public class countsubarraywithmajorityelementI {
     public static int countSubarrays(int[] nums, int k) {
